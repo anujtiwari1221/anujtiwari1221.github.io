@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ANUJ TIWARI | Personal Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b0f19;
+            color: white;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #111827;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            color: #00e5ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        section {
+            padding: 100px 8%;
+            min-height: 100vh;
+        }
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0b0f19, #111827);
+        }
+
+        .home h1 {
+            font-size: 55px;
+            color: #00e5ff;
+        }
+
+        .home h3 {
+            font-size: 25px;
+            margin: 15px 0;
+        }
+
+        .home p {
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #00e5ff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+            color: #00e5ff;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #111827;
+            padding: 30px;
+            width: 280px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid #1f2937;
+        }
+
+        .card h3 {
+            color: #00e5ff;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 15px;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                padding: 15px 5%;
+            }
+
+            nav a {
+                margin-left: 8px;
+                font-size: 13px;
+            }
+
+            .home h1 {
+                font-size: 40px;
+            }
+
+            .home h3 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>ANUJ</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div>
+            <h1>ANUJ TIWARI</h1>
+
+            <h3>Trader | Learner | Entrepreneur</h3>
+
+            <p>
+                Welcome to my personal website.
+            </p>
+
+            <p>
+                "Everything is possible when you believe in yourself."
+            </p>
+
+            <a class="btn" href="#about">Know More</a>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <h2 class="title">About Me</h2>
+
+        <div class="about">
+            <p>
+                नमस्ते! मेरा नाम Anuj Tiwari है।
+                मुझे Financial Markets, Trading, Business और नई चीजें सीखने में रुचि है।
+            </p>
+
+            <br>
+
+            <p>
+                यह मेरी personal website है, जहाँ मैं अपने बारे में,
+                अपने काम और अपनी learning journey को share करता हूँ।
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Work -->
+    <section id="work">
+        <h2 class="title">My Work & Interests</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📈 Trading</h3>
+                <p>
+                    Financial markets और trading को सीखना और समझना।
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Technology</h3>
+                <p>
+                    नई technology और online tools को सीखना।
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Business</h3>
+                <p>
+                    नए business ideas और entrepreneurship में interest।
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- YouTube -->
+    <section id="youtube">
+        <h2 class="title">My YouTube</h2>
+
+        <div class="about">
+
+            <p>
+                Trading और financial market से जुड़ी videos के लिए
+                मेरे YouTube channel पर visit करें।
+            </p>
+
+            <!-- यहाँ अपना YouTube link डालें -->
+            <a class="btn"
+               href="https://youtube.com/@mrtiwari4"
+               target="_blank">
+                Visit My YouTube
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2 class="title">Contact Me</h2>
+
+        <p>📧 Email: अपना Email यहाँ लिखें</p>
+
+        <p>📱 WhatsApp: अपना WhatsApp नंबर यहाँ लिखें</p>
+
+        <p>📸 Instagram: अपना Instagram link यहाँ लगाएँ</p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        © 2026 ANUJ TIWARI | All Rights Reserved
+    </footer>
+
+</body>
+</html>
